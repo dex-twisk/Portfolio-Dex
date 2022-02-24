@@ -1,0 +1,35 @@
+body {
+    background-color: #070E17;
+    font-family: serif;
+}
+
+:root {
+    --background-color1: #FFFFFF;
+    --red:#C14B4B; 
+}
+h1 {
+    text-shadow: 3px -3px 0px #C7C7C7;
+    font-size: 6em;
+}
+
+h1, h2 {
+    letter-spacing: .25em;
+}
+
+h1, h3, h4 {
+    color: white;
+}
+
+section:nth-of-type(1) h2 {
+    color: var(--red);
+    text-shadow: -3px 0px 0px white;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+section:nth-of-type(2) h2, p{
+    color: var(--red);
+}
